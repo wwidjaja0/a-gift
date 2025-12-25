@@ -10,8 +10,9 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  min-height: 200px;
-  justify-content: center;
+  height: 100%;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .gift-item:hover {
@@ -27,6 +28,8 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  flex: 1;
+  justify-content: center;
 }
 
 .gift-item-image {
@@ -63,10 +66,13 @@
 }
 
 .gift-item-description {
-  color: #666;
+  color: rgba(255, 248, 220, 0.7);
   font-size: 1rem;
   margin: 0;
   line-height: 1.5;
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 768px) {

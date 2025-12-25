@@ -38,16 +38,12 @@ const notesFilePath = path.join(__dirname, 'notes.json')
 // Ensure notes.json exists
 if (!fs.existsSync(notesFilePath)) {
   fs.writeFileSync(notesFilePath, JSON.stringify({
-    person1: {
-      note: "Hello! This is a personalized note for person1. You can customize this message for each person.",
+    default: {
+      note: "Something broke!",
       imageUrl: "",
-      musicUrl: ""
+      musicUrl: "",
+      giftItems: []
     },
-    person2: {
-      note: "Hello! This is a personalized note for person2. You can customize this message for each person.",
-      imageUrl: "",
-      musicUrl: ""
-    }
   }, null, 2))
 }
 
@@ -61,12 +57,18 @@ app.get('/api/notes/:personId', (req, res) => {
       const personNote = notesData[personId]
       // Handle both old format (string) and new format (object)
       if (typeof personNote === 'string') {
-        res.json({ note: personNote, imageUrl: '', musicUrl: '' })
+        res.json({ 
+          note: personNote, 
+          imageUrl: '', 
+          musicUrl: '',
+          giftItems: []
+        })
       } else {
         res.json({ 
           note: personNote.note || '',
           imageUrl: personNote.imageUrl || '',
-          musicUrl: personNote.musicUrl || ''
+          musicUrl: personNote.musicUrl || '',
+          giftItems: personNote.giftItems || []
         })
       }
     } else {

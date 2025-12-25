@@ -43,7 +43,7 @@ function GiftPage() {
   }, [musicUrl])
 
   if (!personId) {
-    return <Navigate to="/person1" replace />
+    return <Navigate to="/default" replace />
   }
 
   return (
@@ -52,9 +52,6 @@ function GiftPage() {
         <LoadingScreen onComplete={() => setLoadingComplete(true)} />
       ) : !giftOpened ? (
         <GiftWrapper onOpen={() => setGiftOpened(true)}>
-          {/* Insert your custom gift element here */}
-          {/* Example: <img src="/your-gift-image.png" alt="Gift" /> */}
-          {/* Example: <div className="your-custom-gift">Your Gift</div> */}
         </GiftWrapper>
       ) : (
         <div className="main-content">
@@ -68,7 +65,7 @@ function GiftPage() {
               style={{ display: 'none' }}
             />
           )}
-          <GiftContent />
+          <GiftContent personId={personId} />
           <Letter onClick={() => setShowNotePopup(true)} />
           {showNotePopup && (
             <NotePopup
@@ -85,7 +82,7 @@ function GiftPage() {
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/person1" replace />} />
+      <Route path="/" element={<Navigate to="/default" replace />} />
       <Route path="/:personId" element={<GiftPage />} />
     </Routes>
   )

@@ -32,6 +32,16 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   margin-bottom: 3rem;
+  justify-items: center;
+}
+
+.gift-items-loading,
+.gift-items-empty {
+  color: rgba(255, 248, 220, 0.7);
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 3rem;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {

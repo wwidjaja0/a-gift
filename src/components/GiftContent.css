@@ -36,6 +36,25 @@
   width: 100%;
 }
 
+/* If there are fewer than 3 items, center them and set explicit column sizes
+   so they appear as evenly tiled and centered. We add modifier classes
+   `few-items-1` and `few-items-2` from the component. */
+.gift-items-grid.few-items {
+  justify-content: center;
+  width: 100%;
+}
+
+.gift-items-grid.few-items-1 {
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.gift-items-grid.few-items-2 {
+  grid-template-columns: repeat(2, minmax(220px, 360px));
+  justify-content: center;
+  justify-items: center;
+}
+
 .gift-items-loading,
 .gift-items-empty {
   color: rgba(255, 248, 220, 0.7);
@@ -58,6 +77,11 @@
   .gift-items-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  /* On small screens we still want 1 column for 1-2 items so they stack cleanly */
+  .gift-items-grid.few-items-2 {
+    grid-template-columns: 1fr;
   }
 }
 

@@ -39,7 +39,7 @@ function GiftPage() {
       // Small delay to ensure audio element is ready
       const playMusic = async () => {
         try {
-          audioRef.current.volume = 0.5 // Set volume to 50%
+          audioRef.current.volume = 0.15
           await audioRef.current.play()
         } catch (err) {
           console.error('Error playing music:', err)

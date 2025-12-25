@@ -46,9 +46,11 @@ function GiftContent({ personId }) {
     )
   }
 
+  const gridClass = `gift-items-grid ${giftItems.length < 3 ? `few-items few-items-${giftItems.length}` : ''}`
+
   return (
     <div className="gift-content">
-      <div className="gift-items-grid">
+      <div className={gridClass} data-count={giftItems.length}>
         {giftItems.map((item) => (
           <GiftItem key={item.id} item={item} />
         ))}

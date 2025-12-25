@@ -6,8 +6,8 @@
     "giftItems": []
   },
   "katie": {
-    "note": "Merry Christmas Katie ! ",
-    "imageUrl": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fgifdb.com%2Fimages%2Fhigh%2Fkirby-flapping-hands-738xlla5noqyj792.gif&sp=1766629110T391226385e9fff9114dfd5050b456a4c244ad60c7d8beb97d96d27eec4cb13a6",
+    "note": "This might be a bit unconventional, and it isn't exactly the most \"letter\" letter, but I hope you enjoy it. Merry Christmas Katie !\n\n- Widjaja :3",
+    "imageUrl": "https://c.tenor.com/l5XMxqkwqzcAAAAd/tenor.gif",
     "musicUrl": "https://res.cloudinary.com/dv7pbauti/video/upload/v1766680776/KATSEYE_-_Touch_Holiday_Version_Official_Audio_yo9szf.mp3",
     "giftItems": [
       {
@@ -20,9 +20,9 @@
       },
       {
         "id": 2,
-        "title": "Gift Item 2",
-        "description": "Another delightful surprise!",
-        "image": null,
+        "title": "Favorite person met this year award",
+        "description": "",
+        "image": "https://www.publicdomainpictures.net/pictures/170000/velka/trophy-1461775452C4L.jpg",
         "link": "#",
         "type": "link"
       }

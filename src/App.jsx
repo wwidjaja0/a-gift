@@ -16,9 +16,9 @@ function GiftPage() {
   const [musicUrl, setMusicUrl] = useState('')
   const audioRef = useRef(null)
 
-  // Fetch music URL when gift is opened
+  // Pre-fetch music URL when loading completes (so it's ready when gift opens)
   useEffect(() => {
-    if (giftOpened && personId) {
+    if (loadingComplete && personId) {
       const fetchMusic = async () => {
         try {
           const response = await axios.get(`${API_BASE_URL}/api/notes/${personId}`)
@@ -31,16 +31,29 @@ function GiftPage() {
       }
       fetchMusic()
     }
-  }, [giftOpened, personId])
+  }, [loadingComplete, personId])
 
-  // Play music when musicUrl is available
+  // Play music automatically when gift is opened and musicUrl is available
   useEffect(() => {
-    if (musicUrl && audioRef.current) {
-      audioRef.current.play().catch(err => {
-        console.error('Error playing music:', err)
-      })
+    if (giftOpened && musicUrl && audioRef.current) {
+      // Small delay to ensure audio element is ready
+      const playMusic = async () => {
+        try {
+          audioRef.current.volume = 0.5 // Set volume to 50%
+          await audioRef.current.play()
+        } catch (err) {
+          console.error('Error playing music:', err)
+          // If autoplay fails, try again after a short delay
+          setTimeout(() => {
+            if (audioRef.current) {
+              audioRef.current.play().catch(console.error)
+            }
+          }, 100)
+        }
+      }
+      playMusic()
     }
-  }, [musicUrl])
+  }, [giftOpened, musicUrl])
 
   if (!personId) {
     return <Navigate to="/default" replace />
@@ -62,6 +75,7 @@ function GiftPage() {
               src={musicUrl}
               loop
               preload="auto"
+              autoPlay
               style={{ display: 'none' }}
             />
           )}

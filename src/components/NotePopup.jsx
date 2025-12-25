@@ -64,7 +64,7 @@ function NotePopup({ personId, onClose }) {
             </div>
           ) : (
             <>
-              <h2 className="note-title">Your Letter</h2>
+              <h2 className="note-title">To: {personId}</h2>
               <div className="note-text">
                 <p>{note}</p>
               </div>

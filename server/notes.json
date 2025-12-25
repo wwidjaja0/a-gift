@@ -12,10 +12,10 @@
     "giftItems": [
       {
         "id": 1,
-        "title": "Gift Item 1",
-        "description": "A special something just for you!",
-        "image": null,
-        "link": "#",
+        "title": "Tabletop Simulator",
+        "description": "You've already gotten this one!",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/286160/header.jpg?t=1765809682",
+        "link": "https://store.steampowered.com/app/286160/Tabletop_Simulator/",
         "type": "link"
       },
       {

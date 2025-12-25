@@ -124,6 +124,26 @@
   margin: 0;
 }
 
+.note-image-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.note-image-separator {
+  width: 80%;
+  height: 1px;
+  background: rgba(255, 248, 220, 0.2);
+  margin: 1.5rem auto;
+}
+
+.note-image {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+}
+
 .note-loading {
   display: flex;
   flex-direction: column;

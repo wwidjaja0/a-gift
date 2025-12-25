@@ -1,6 +1,7 @@
 import { Routes, Route, useParams, Navigate } from 'react-router-dom'
 import { useState, useEffect, useRef } from 'react'
 import axios from 'axios'
+import API_BASE_URL from './config/api'
 import LoadingScreen from './components/LoadingScreen'
 import GiftWrapper from './components/GiftWrapper'
 import GiftContent from './components/GiftContent'
@@ -20,7 +21,7 @@ function GiftPage() {
     if (giftOpened && personId) {
       const fetchMusic = async () => {
         try {
-          const response = await axios.get(`/api/notes/${personId}`)
+          const response = await axios.get(`${API_BASE_URL}/api/notes/${personId}`)
           if (response.data.musicUrl) {
             setMusicUrl(response.data.musicUrl)
           }

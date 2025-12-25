@@ -42,10 +42,41 @@
   width: 100%;
   max-height: 80vh;
   overflow-y: auto;
+  overflow-x: hidden;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(220, 20, 60, 0.3);
   position: relative;
   animation: slideUp 0.3s ease-out;
+  scrollbar-gutter: stable;
+}
+
+/* Custom scrollbar styling */
+.note-popup::-webkit-scrollbar {
+  width: 10px;
+}
+
+.note-popup::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 0 20px 20px 0;
+  margin: 10px 0;
+}
+
+.note-popup::-webkit-scrollbar-thumb {
+  background: rgba(220, 20, 60, 0.4);
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.note-popup::-webkit-scrollbar-thumb:hover {
+  background: rgba(220, 20, 60, 0.6);
+  background-clip: padding-box;
+}
+
+/* Firefox scrollbar */
+.note-popup {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(220, 20, 60, 0.4) rgba(0, 0, 0, 0.2);
 }
 
 .note-popup.closing {

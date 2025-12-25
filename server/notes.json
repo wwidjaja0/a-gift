@@ -1,0 +1,13 @@
+{
+  "person1": {
+    "note": "Hello! This is a personalized note for person1. You can customize this message for each person.",
+    "imageUrl": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fgifdb.com%2Fimages%2Fhigh%2Fkirby-flapping-hands-738xlla5noqyj792.gif&sp=1766629110T391226385e9fff9114dfd5050b456a4c244ad60c7d8beb97d96d27eec4cb13a6",
+    "musicUrl": ""
+  },
+  "person2": {
+    "note": "Hello! This is a personalized note for person2. You can customize this message for each person.",
+    "imageUrl": "https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fgifdb.com%2Fimages%2Fhigh%2Fkirby-flapping-hands-738xlla5noqyj792.gif&sp=1766629110T391226385e9fff9114dfd5050b456a4c244ad60c7d8beb97d96d27eec4cb13a6",
+    "musicUrl": ""
+  }
+}
+

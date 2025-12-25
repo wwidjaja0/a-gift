@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Patrick Hand', 'Schoolbell', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(220, 20, 60, 0.25) 0%, transparent 60%),
+    radial-gradient(circle at 80% 80%, rgba(34, 139, 34, 0.25) 0%, transparent 60%),
+    radial-gradient(circle at 40% 20%, rgba(255, 215, 0, 0.15) 0%, transparent 60%),
+    linear-gradient(135deg, #1a1a1a 0%, #1f1a1a 30%, #1a1f1a 70%, #1a1a1f 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100px 100px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px, 200px 150px;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  gap: 2rem;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(220, 20, 60, 0.4);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(220, 20, 60, 0.6);
+}
+
+/* Snow effect */
+.snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.snow::before,
+.snow::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  top: -100%;
+  left: 0;
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(2px 2px at 60px 70px, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1px 1px at 50px 50px, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(1px 1px at 10px 10px, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(2px 2px at 80px 40px, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(2px 2px at 40px 90px, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1px 1px at 90px 20px, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(1px 1px at 30px 60px, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(2px 2px at 70px 80px, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(2px 2px at 15px 50px, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1px 1px at 120px 140px, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(2px 2px at 160px 110px, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 200px 180px, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(2px 2px at 25px 220px, rgba(255, 255, 255, 0.6), transparent);
+  background-size: 250px 250px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px, 200px 150px, 50px 200px, 150px 50px, 30px 150px, 180px 250px, 25px 100px, 120px 300px, 160px 350px, 200px 400px, 25px 450px;
+  background-repeat: repeat;
+  animation: snowfall 15s linear infinite;
+  opacity: 0.6;
+  will-change: transform;
+}
+
+.snow::after {
+  animation-duration: 20s;
+  animation-delay: -7.5s;
+  background-position: 100px 0, 140px 60px, 230px 270px, 170px 100px, 300px 150px, 150px 200px, 250px 50px, 130px 150px, 280px 250px, 125px 100px, 220px 300px, 260px 350px, 300px 400px, 125px 450px;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(50%);
+  }
+}
+

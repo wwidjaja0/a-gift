@@ -27,6 +27,119 @@
         "type": "link"
       }
     ]
+  },
+  "victork": {
+    "note": "Hey Victor! I know this is pretty late, but Merry Belated Christmas and Happy (Chinese?) New Year! Lol. Too early for Chinese New Year but too late for actual New Years rip. Well that's how it be. Anyways, I just wanted to say thanks for being a great friend this year. You've been super supportive and racist, and I really appreciate it. I hope we can continue to be friends and make more memories together in the future. I know I already wished you a Happy Birthday so at least there's that lmao :) Wishing you all the best for the new year ahead!\n\n- Widjaja :3",
+    "imageUrl": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2lrcDgzam44ZGF2enI4OG81MW96a3d3dnViajZscTdiMmt5NW9mNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ixlvheavdDS8L7GFCt/giphy.gif",
+    "musicUrl": "https://res.cloudinary.com/dv7pbauti/video/upload/v1767689101/Vintage-Eva_Lyrics_Lonely_Lonely_I_guess_i_m_lonely..._afonfu.mp3",
+    "giftItems": [
+      {
+        "id": 1,
+        "title": "I got you a secret something that will come to your doorstep tomorrow :)",
+        "description": "Hehe... the cover image is a hint.",
+        "image": "https://tenor.com/9qjY.gif",
+        "link": "",
+        "type": "link"
+      },
+      {
+        "id": 2,
+        "title": "Best psuedo-big award",
+        "description": "",
+        "image": "https://www.publicdomainpictures.net/pictures/170000/velka/trophy-1461775452C4L.jpg",
+        "link": "#",
+        "type": "link"
+      }
+    ]
+  },
+  "angelat": {
+    "note": "",
+    "imageUrl": "",
+    "musicUrl": "",
+    "giftItems": [
+      {
+        "id": 1,
+        "title": "",
+        "description": "",
+        "image": "",
+        "link": "",
+        "type": "link"
+      }
+    ]
+  },
+  "kylet": {
+    "note": "",
+    "imageUrl": "",
+    "musicUrl": "",
+    "giftItems": [
+      {
+        "id": 1,
+        "title": "",
+        "description": "",
+        "image": "",
+        "link": "",
+        "type": "link"
+      }
+    ]
+  },
+  "kathleenc": {
+    "note": "",
+    "imageUrl": "",
+    "musicUrl": "",
+    "giftItems": [
+      {
+        "id": 1,
+        "title": "",
+        "description": "",
+        "image": "",
+        "link": "",
+        "type": "link"
+      }
+    ]
+  },
+  "syrenas": {
+    "note": "",
+    "imageUrl": "",
+    "musicUrl": "",
+    "giftItems": [
+      {
+        "id": 1,
+        "title": "",
+        "description": "",
+        "image": "",
+        "link": "",
+        "type": "link"
+      }
+    ]
+  },
+  "nicolef": {
+    "note": "",
+    "imageUrl": "",
+    "musicUrl": "",
+    "giftItems": [
+      {
+        "id": 1,
+        "title": "",
+        "description": "",
+        "image": "",
+        "link": "",
+        "type": "link"
+      }
+    ]
+  },
+  "russelln": {
+    "note": "",
+    "imageUrl": "",
+    "musicUrl": "",
+    "giftItems": [
+      {
+        "id": 1,
+        "title": "",
+        "description": "",
+        "image": "",
+        "link": "",
+        "type": "link"
+      }
+    ]
   }
 }
 

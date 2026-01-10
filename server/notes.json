@@ -121,7 +121,7 @@
     ]
   },
   "syrenas": {
-    "note": "",
+    "note": "Hey Syrena ! Merry (Belated) Christmas and Happy New Year !! What's up my homie? Mah little, anyways this is a little late something I got you cuz I was busy with things this past winter break lol. But anyways, I just wanted to say thanks for being a great little this past year. You've been super supportive to me and our friends around us and you're also fun to hang out with, and I really appreciate it. I hope we can continue to be friends and make more memories together in the future. Wishing you all the best for 2026 !\n\n- Widjaja :3",
     "imageUrl": "https://media1.tenor.com/m/cgqALUDHDCAAAAAd/christmas-elf.gif",
     "musicUrl": "https://res.cloudinary.com/dv7pbauti/video/upload/v1767997833/We_Are_Jolly_Good_A_Christmas_Song_Lyrics_Video_xwnrt2.mp3",
     "giftItems": [
@@ -135,8 +135,8 @@
       },
       {
         "id": 2,
-        "title": "Most  award",
-        "description": "",
+        "title": "FUNNIEST bit award",
+        "description": "You should consider doing stand-up cuz like you're pretty funny ngl",
         "image": "https://www.publicdomainpictures.net/pictures/170000/velka/trophy-1461775452C4L.jpg",
         "link": "#",
         "type": "link"
@@ -144,16 +144,24 @@
     ]
   },
   "nicolef": {
-    "note": "",
+    "note": "Hey Nicole ! Merry (Belated) Christmas and Happy New Year !! It's been an honor to be your byte for the short few months that I've known you this past year. You're honestly making a lot of strides that it's almost scary how much work you do and how many committments you have but ayyy I respect it cuz I understand the mindset LOL. Mindset grindset yk... Anyways, all that to say, I think you'll do really amazing things as you go through college, and even though I'll only be able to see you for another year at most, I'll be looking forward to seeing where life takes you. Above all that though, you're genuinely a compassionate, respectable, and considerate person. Once a person gets to know you there's no doubt they'll like you for who you are. Really proud of you and I hope we can continue to make more memories in the future ! :)",
     "imageUrl": "https://media.tenor.com/4X0KRoD5J4UAAAAi/merry-christmas-merry-xmas.gif",
     "musicUrl": "https://res.cloudinary.com/dv7pbauti/video/upload/v1767997833/We_Are_Jolly_Good_A_Christmas_Song_Lyrics_Video_xwnrt2.mp3",
     "giftItems": [
       {
         "id": 1,
-        "title": "",
-        "description": "",
-        "image": "",
+        "title": "Amazon Gift Card",
+        "description": "10 big stones (idk why it says for valentine's day ignore that part)",
+        "image": "https://www.amazon.com/gp/product/B07PCMWTSG/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1",
         "link": "",
+        "type": "link"
+      },
+      {
+        "id": 2,
+        "title": "Earliest-riser award",
+        "description": "aka earliest cooked xiao long bao award",
+        "image": "https://www.publicdomainpictures.net/pictures/170000/velka/trophy-1461775452C4L.jpg",
+        "link": "#",
         "type": "link"
       }
     ]

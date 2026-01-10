@@ -60,7 +60,7 @@
         "id": 1,
         "title": "Amazon Gift Card",
         "description": "10 big stones (idk why it says for valentine's day ignore that part)",
-        "image": "https://www.amazon.com/gp/product/B07PCMWTSG/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1",
+        "image": "https://m.media-amazon.com/images/I/31x451MtRuL.jpg",
         "link": "",
         "type": "link"
       },
@@ -83,7 +83,7 @@
         "id": 1,
         "title": "Amazon Gift Card",
         "description": "10 big stones (idk why it says for valentine's day ignore that part)",
-        "image": "https://www.amazon.com/gp/product/B07PCMWTSG/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1",
+        "image": "https://m.media-amazon.com/images/I/31x451MtRuL.jpg",
         "link": "",
         "type": "link"
       },
@@ -106,7 +106,7 @@
         "id": 1,
         "title": "Amazon Gift Card",
         "description": "10 big stones (idk why it says for valentine's day ignore that part)",
-        "image": "https://www.amazon.com/gp/product/B07PCMWTSG/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1",
+        "image": "https://m.media-amazon.com/images/I/31x451MtRuL.jpg",
         "link": "",
         "type": "link"
       },
@@ -129,7 +129,7 @@
         "id": 1,
         "title": "Amazon Gift Card",
         "description": "10 big stones (idk why it says for valentine's day ignore that part)",
-        "image": "https://www.amazon.com/gp/product/B07PCMWTSG/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1",
+        "image": "https://m.media-amazon.com/images/I/31x451MtRuL.jpg",
         "link": "",
         "type": "link"
       },
@@ -152,7 +152,7 @@
         "id": 1,
         "title": "Amazon Gift Card",
         "description": "10 big stones (idk why it says for valentine's day ignore that part)",
-        "image": "https://www.amazon.com/gp/product/B07PCMWTSG/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1",
+        "image": "https://m.media-amazon.com/images/I/31x451MtRuL.jpg",
         "link": "",
         "type": "link"
       },
@@ -167,4 +167,3 @@
     ]
   }
 }
-

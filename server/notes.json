@@ -52,84 +52,101 @@
     ]
   },
   "angelat": {
-    "note": "",
-    "imageUrl": "",
-    "musicUrl": "",
+    "note": "Hey Angela !! Merry (Belated) Christmas and Happy New Year !! LOL. Although the run this year ended in sort of a whimper instead of a bang in terms of our friendship (truth be told), I'm still so glad that I got to meet you and get closer with you this year !! Thank you for being super supportive at a time when I was quite literally at the lowest point in my life, and I hope you have been enjoying (or at least finding the good in the moments) at your time at [redacted]! Uh oh, can't say what company it is hehe, we're keeping that a secret ofc. I can't describe in words how much you mean to me as a friend, my grandbyte, and as a mentor. Thanks for being there for me and cheers to more memories in 2026!\n\n- Widjaja :3",
+    "imageUrl": "https://media1.tenor.com/m/ywYGDuj0MYkAAAAd/merry-christmas-gift.gif",
+    "musicUrl": "https://res.cloudinary.com/dv7pbauti/video/upload/v1767997211/this_is_what_christmas_feels_like_-_JVKE_mddjif.mp3",
     "giftItems": [
       {
         "id": 1,
-        "title": "",
-        "description": "",
-        "image": "",
+        "title": "Amazon Gift Card",
+        "description": "10 big stones (idk why it says for valentine's day ignore that part)",
+        "image": "https://www.amazon.com/gp/product/B07PCMWTSG/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1",
         "link": "",
+        "type": "link"
+      },
+      {
+        "id": 2,
+        "title": "Best grand-big award",
+        "description": "",
+        "image": "https://www.publicdomainpictures.net/pictures/170000/velka/trophy-1461775452C4L.jpg",
+        "link": "#",
         "type": "link"
       }
     ]
   },
   "kylet": {
-    "note": "",
-    "imageUrl": "",
-    "musicUrl": "",
+    "note": "Hey Kyle! Merry (Belated) Christmas and Happy New Year!! What's up my cafe lovin' broooo :D Although we didn't get to hang out as much as I would have liked to last quarter, I still very much value the friendship that we have built over 2025. Even helping me at a time when I was at the lowest point in my life, you were the one that brought me up, so I hold a special place in my heart for you and I really appreciate that, even though we've both been kinda busy lately haha. On that career grind. We should still hang out this quarter though ! (Assuming you haven't moved to the bay to be with Angela fr yet LOL. Anyways hope you have a great 2026 ahead and cheers to more memories together !!\n\n- Widjaja :3",
+    "imageUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanIwZDdpaDR5bHZwZHZkYmRiNXFraG45NTNweGd0bnd4ZGZidXQ2cSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qVokYe2v3obPKSHOYD/giphy.gif",
+    "musicUrl": "https://res.cloudinary.com/dv7pbauti/video/upload/v1767997833/We_Are_Jolly_Good_A_Christmas_Song_Lyrics_Video_xwnrt2.mp3",
     "giftItems": [
       {
         "id": 1,
-        "title": "",
-        "description": "",
-        "image": "",
+        "title": "Amazon Gift Card",
+        "description": "10 big stones (idk why it says for valentine's day ignore that part)",
+        "image": "https://www.amazon.com/gp/product/B07PCMWTSG/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1",
         "link": "",
+        "type": "link"
+      },
+      {
+        "id": 2,
+        "title": "Best psuedo-grand-big award",
+        "description": "",
+        "image": "https://www.publicdomainpictures.net/pictures/170000/velka/trophy-1461775452C4L.jpg",
+        "link": "#",
         "type": "link"
       }
     ]
   },
   "kathleenc": {
-    "note": "",
-    "imageUrl": "",
-    "musicUrl": "",
+    "note": "Hey Kathleen! Merry (Belated) Christmas and Happy New Year!! I know for a FACT that you had helluva restful winter break so ITS TIME TO GET LITTTYYY WOOOOOOOOOOOO !!!! NO MORE SLEEP NO MORE HOMEBODY WE GO OUT AND PARTY ALL NIGHT ! Anyways, you kinda feel like family to me now even though I've only known you for these few short months. I'm very grateful to have met you this past year, and I'm so glad that we've had memories we could already share with each other :) Hope you get through all the struggles in life and someday come out to the other side more tranquil and at peace haha. Here's to more memories in 2026 !!\n\n- Widjaja :3",
+    "imageUrl": "https://media1.tenor.com/m/ywYGDuj0MYkAAAAd/merry-christmas-gift.gif",
+    "musicUrl": "https://res.cloudinary.com/dv7pbauti/video/upload/v1767997833/We_Are_Jolly_Good_A_Christmas_Song_Lyrics_Video_xwnrt2.mp3",
     "giftItems": [
       {
         "id": 1,
-        "title": "",
-        "description": "",
-        "image": "",
+        "title": "Amazon Gift Card",
+        "description": "10 big stones (idk why it says for valentine's day ignore that part)",
+        "image": "https://www.amazon.com/gp/product/B07PCMWTSG/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1",
         "link": "",
+        "type": "link"
+      },
+      {
+        "id": 2,
+        "title": "Goes-the-hardest-at-parties award",
+        "description": "",
+        "image": "https://www.publicdomainpictures.net/pictures/170000/velka/trophy-1461775452C4L.jpg",
+        "link": "#",
         "type": "link"
       }
     ]
   },
   "syrenas": {
     "note": "",
-    "imageUrl": "",
-    "musicUrl": "",
+    "imageUrl": "https://media1.tenor.com/m/cgqALUDHDCAAAAAd/christmas-elf.gif",
+    "musicUrl": "https://res.cloudinary.com/dv7pbauti/video/upload/v1767997833/We_Are_Jolly_Good_A_Christmas_Song_Lyrics_Video_xwnrt2.mp3",
     "giftItems": [
       {
         "id": 1,
-        "title": "",
-        "description": "",
-        "image": "",
+        "title": "Amazon Gift Card",
+        "description": "10 big stones (idk why it says for valentine's day ignore that part)",
+        "image": "https://www.amazon.com/gp/product/B07PCMWTSG/ref=sw_img_1?smid=ATVPDKIKX0DER&psc=1",
         "link": "",
+        "type": "link"
+      },
+      {
+        "id": 2,
+        "title": "Most  award",
+        "description": "",
+        "image": "https://www.publicdomainpictures.net/pictures/170000/velka/trophy-1461775452C4L.jpg",
+        "link": "#",
         "type": "link"
       }
     ]
   },
   "nicolef": {
     "note": "",
-    "imageUrl": "",
-    "musicUrl": "",
-    "giftItems": [
-      {
-        "id": 1,
-        "title": "",
-        "description": "",
-        "image": "",
-        "link": "",
-        "type": "link"
-      }
-    ]
-  },
-  "russelln": {
-    "note": "",
-    "imageUrl": "",
-    "musicUrl": "",
+    "imageUrl": "https://media.tenor.com/4X0KRoD5J4UAAAAi/merry-christmas-merry-xmas.gif",
+    "musicUrl": "https://res.cloudinary.com/dv7pbauti/video/upload/v1767997833/We_Are_Jolly_Good_A_Christmas_Song_Lyrics_Video_xwnrt2.mp3",
     "giftItems": [
       {
         "id": 1,
